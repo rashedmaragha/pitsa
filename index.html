@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>بيتسا</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="Pitsaa.png" >
+  <!-- Google Fonts (Optional) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+</head>
+<body>
+
+  <!-- Navigation / Header -->
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="logo">بيتسا</div>
+      <ul class="nav-links">
+        <li><a href="#menu-section">المنيو</a></li>
+        <li><a href="#contact-section">رن علينا </a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1 class="hero-title">لسّاتك جاي عبالك بيتزا؟</h1>
+      <p class="hero-subtitle">
+        نزلنالك أصناف جديدة يا حب</p>
+      <a href="#menu-section" class="hero-btn">رن واطلب</a>
+    </div>
+  </header>
+
+  <!-- Menu Section -->
+  <section class="menu-section" id="menu-section">
+    <h2 class="section-title">المنيو حقنا </h2>
+    <div class="menu-container">
+      <!-- Menu Item 1 -->
+      <div class="menu-item">
+        <img src="menu1.webp" alt="بيتزا 1">
+        <h3>بيتزا مارغاريتا</h3>
+        <p class="description">جبنة الموزاريلا مع صلصة البندورة والريحان الطازجة</p>
+      </div>
+      <!-- Menu Item 2 -->
+      <div class="menu-item">
+        <img src="menu2.png" alt="بيتزا 2">
+        <h3>بيتزا الخضار</h3>
+        <p class="description">تشكيلة من الخضرة الطازة مع صلصة البندورة وجبنة الموزاريلا</p>
+      </div>
+      <!-- Menu Item 3 -->
+      <div class="menu-item">
+        <img src="menu3.webp" alt="بيتزا 3">
+        <h3>بيتزا الببروني</h3>
+        <p class="description">شريحة ببروني غنية مع جبنة الموزاريلا وصلصة البندورة</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact-section">
+    <h2 class="section-title">تواصل معنا</h2>
+    <p class="contact-text">عبّي النموذج هاد بس عشان نتواصل معك</p>
+      <div class="form-group">
+        <label for="name">الاسم الكامل</label>
+        <input type="text" id="name" name="name" placeholder="أدخل اسمك" required>
+      </div>
+      <div class="form-group">
+        <label for="email">البريد الإلكتروني</label>
+        <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+      </div>
+      <div class="form-group">
+        <label for="message">رسالتك</label>
+        <textarea id="message" name="message" placeholder="اكتب رسالتك هنا..." rows="5" required></textarea>
+      </div>
+      <button type="submit" class="contact-btn">إرسال</button>
+    </form>
+  </section>
+  <!-- Footer -->
+  <footer class="main-footer">
+    <p>© 2025 <span>بيتسا</span>. جميع الحقوق محفوظة.</p>
+    <p>designed by <span><a class="rashed" href="https://rashedmaragha.github.io/APortifolio/">Rashed Maragha</a></span></p>
+  </footer>
+</body>
+</html>
